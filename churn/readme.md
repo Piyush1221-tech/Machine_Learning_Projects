@@ -54,14 +54,8 @@ The dataset includes customer information such as demographic details, services 
 ## Key Learnings
 
 * Preprocessing and handling missing values are crucial for ML models.
-* Feature engineering like `TotalRevenue` and `Contract_Payment` can improve model performance.
 * Random Forest and boosting models often outperform linear models on churn datasets.
 
-## Future Improvements
-
-* Apply SMOTE to handle class imbalance.
-* Hyperparameter tuning for Random Forest and XGBoost.
-* Deploy the model for real-time churn prediction.
 
 ## Dependencies
 
@@ -69,9 +63,9 @@ The dataset includes customer information such as demographic details, services 
 * pandas
 * numpy
 * scikit-learn
-* imbalanced-learn (optional, for SMOTE)
+
 
 ---
 
-**Author:** Your Name
+**Author:** Piyush Tripathi
 **Date:** 2025-09-21
